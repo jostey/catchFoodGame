@@ -5,7 +5,7 @@ Game of catching elements with the voice and the hand. Recognizes voice (trained
 Juego implementado mediante la interfaz gráfica de Matlab que usa de forma dinámica reconocimiento de audio y vídeo.
 Consiste en un juego 2D en el que el jugador debe recoger con una cesta la comida que cae desde lo alto de la pantalla pudiendo mover la comida y la cesta mediante el audio y video.
 
-![img1](https://raw.githubusercontent.com/jostey/catchFoodGame/media/img1.png)
+![img1](/media/img1.png)
 
 Mediante el reconocimiento de voz se identifica qué elemento de los que aparecen en pantalla se quiere desplazar (pizza, perrito, hamburguesa, helado, pollo, tarta, cesta).
 
@@ -23,18 +23,18 @@ El reconociemiento de audio se basa, tanto en ‘test’ como en ‘training’,
 En este caso, el software reconocerá el dedo del jugador y según la posición podrá desplazar el elemento seleccionado por voz.
 Primero, sacaría el objeto nuevo (en este caso la mano) de la foto. Esto se realiza restando:
 
-![img2](https://raw.githubusercontent.com/jostey/catchFoodGame/media/img2.png)
+![img2](/media/img2.png)
 
 Filtro de Clausura 	"imclose(img, strel('disk',5));"
 
-![img3](https://raw.githubusercontent.com/jostey/catchFoodGame/media/img3.png)
+![img3](/media/img3.png)
 
 Umbralización
-![img4](https://raw.githubusercontent.com/jostey/catchFoodGame/media/img4.png)
+![img4](/media/img4.png)
 
 Filtro de Clausura 	"imclose(img, strel('disk',8));"
-![img5](https://raw.githubusercontent.com/jostey/catchFoodGame/media/img5.png)
+![img5](/media/img5.png)
 
 Finalmente, tenemos el reconocimiento de la mano en encuadrándolo y viendo el vector de dirección.
-![img6](https://raw.githubusercontent.com/jostey/catchFoodGame/media/img6.png)
+![img6](/media/img6.png)
 
