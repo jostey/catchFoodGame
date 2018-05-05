@@ -14,7 +14,7 @@ Mediante el reconocimiento de vídeo se identifica el movimiento a realizar (izq
 # Reconocimiento de audio
 
 Para el reconocimiento de voz hemos utilizado el método basado en DTW sin grandes modificaciones. 
-El reconociemiento de audio se basa, tanto en ‘test’ como en ‘training’, en patrones de 1 segundo de duración:
+El reconocimiento de audio se basa, tanto ‘test’ como en ‘training’, en patrones de 1 segundo de duración:
 	Frecuencia de muestreo = 8000 muestras/s de 16 bits;
 	Longitud de tramas = 100 muestras (12,5 ms) ;
 
@@ -35,6 +35,6 @@ Umbralización
 Filtro de Clausura 	"imclose(img, strel('disk',8));"
 ![img5](/media/img5.png)
 
-Finalmente, tenemos el reconocimiento de la mano en encuadrándolo y viendo el vector de dirección.
+Finalmente, tenemos el reconocimiento de la mano encuadrándolo y viendo el vector de dirección.
 ![img6](/media/img6.png)
 
