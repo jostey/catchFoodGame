@@ -1,5 +1,7 @@
+Proyecto desarrollado en colaboración con Marta García Pérez (@martagar).
+
 # catchFoodGame
-Game of catching elements with the voice and the hand. Recognizes voice (trained words) and human skin. Programmed with Matlab.
+Juego de recogida de alimentos con la voz y la mano. Reconoce voz (palabras de entrenamiento) y la piel. Está programado en Matlab.
 
 # Introducción
 Juego implementado mediante la interfaz gráfica de Matlab que usa de forma dinámica reconocimiento de audio y vídeo.
@@ -13,7 +15,7 @@ Mediante el reconocimiento de vídeo se identifica el movimiento a realizar (izq
 
 # Reconocimiento de audio
 
-Para el reconocimiento de voz hemos utilizado el método basado en DTW sin grandes modificaciones. 
+Para el reconocimiento de voz hemos utilizado el método basado en DTW sin grandes modificaciones.
 El reconocimiento de audio se basa, tanto ‘test’ como en ‘training’, en patrones de 1 segundo de duración:
 	Frecuencia de muestreo = 8000 muestras/s de 16 bits;
 	Longitud de tramas = 100 muestras (12,5 ms) ;
@@ -37,4 +39,3 @@ Filtro de Clausura 	"imclose(img, strel('disk',8));"
 
 Finalmente, tenemos el reconocimiento de la mano encuadrándolo y viendo el vector de dirección.
 ![img6](/media/img6.png)
-
