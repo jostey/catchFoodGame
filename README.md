@@ -1,4 +1,4 @@
-Proyecto desarrollado en colaboración con Marta García Pérez (@martagar).
+Proyecto desarrollado en colaboración con Marta García Pérez ([@martagar](https://github.com/martagar)).
 
 # catchFoodGame
 Juego de recogida de alimentos con la voz y la mano. Reconoce voz (palabras de entrenamiento) y la piel. Está programado en Matlab.
